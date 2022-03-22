@@ -49,24 +49,24 @@ closeTabButton {
 }
 
 #titleBarText {
-    text-align: right;
-    width: 100%;
-
-    &::before {
-        content: url(assets://mods/Denizenthemes/Cetus/cetus_title.png);
-        margin: 10px;
-	margin-left: -50px;
-        position: absolute;
-        top: 0;
+	text-align: right;
+	width: 100%;
+	&::before {
+		content: url(assets://mods/Denizenthemes/Cetus/cetus_title.png) "CETUS";
+		font-size: 26px;
+		margin: 10px;
+		margin-left: -100px;
+		position: absolute;
+		top: 0;
     }
-    color: #0278dc;
+	color: #0278dc;
 //	font-family: "Homestuck";
-	font-size: 26px;
+	font-size: 0px;
 //	font-weight: 300;
 	font-family: "Courier Prime";
 	font-weight: bold;
 	text-transform: uppercase;
-	line-height: 0.7;
+	line-height: 0.8;
 	letter-spacing: 0;
 	margin-right: 24px;
 	padding-top: 0px;
