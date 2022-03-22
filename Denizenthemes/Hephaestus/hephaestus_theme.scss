@@ -1,0 +1,184 @@
+.systemButton {
+	color: #48d6ff;
+	font-weight: bold;
+	box-sizing: border-box;
+	border: 1px solid #f98302;
+	margin: 1px;
+	background: linear-gradient(
+		180deg,
+		#fa9805 0%,
+		#ff8e27 5%,
+		#ff6100 49%,
+		#ff4201 50%,
+		#ff8e27 95%,
+		#fa9805 100%,
+	);
+	box-shadow: none;
+	border-radius: 3px;
+	&:not(:disabled) {
+		&:active,
+		&.active {
+			box-shadow: none;
+			background: linear-gradient(
+				180deg,
+				#aa2a01 0%,
+				#ff4201 5%,
+				#ff6100 50%,
+				#ff4201 95%,
+				#aa2a01 100%,
+			);
+		}
+	}
+}
+
+
+.closeTabButton {
+	color: #AEAEAE;
+	font-weight: bold;
+	box-sizing: border-box;
+	border: 0px;
+	margin: 0px;
+	background: none;
+	box-shadow: none;
+	border-radius: 0;
+}
+
+.newTabButton {
+	color: #AEAEAE;
+	font-weight: bold;
+	box-sizing: border-box;
+	border: 0px;
+	margin: 0px;
+	background: none;
+	box-shadow: none;
+	border-radius: 0;
+}
+
+.navigationButtons {
+	padding-top: 3px;
+	padding-left: 170px;
+}
+
+
+#browserActions {
+    background: white;
+    border-bottom: 2px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+.music[data-v-d1c414ac] {
+	color: #FF0000;
+}
+
+#titleBar {
+    background: linear-gradient(#7f7f7f, #323232);
+    color: #FF0000;
+    margin-top: 0;
+    padding-top: 22px;
+    padding-left: 20px;
+    &::before {
+        content: url(assets://mods/Denizenthemes/Hephaestus/hephaestus_title.png);
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 0;
+    }
+	border-bottom: 5px solid #323232;
+
+}
+
+#titleBarText {
+	text-align: left;
+	width: 100%;
+	color: #FF0000;
+	font-family: "Verdana";
+	font-size: 0px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 0.7;
+	letter-spacing: 0;
+	padding-top: 0px;
+	width: auto;
+	text-align:center;
+	&::before {
+        	content: "H E P H A E S T U S";
+		font-size: 26px;
+//		font-stretch: ultra-expanded;
+	}
+}
+
+#titleBarButtons {
+	top: 2px;
+	right: 2px;
+	div {
+		margin: 0 1px;
+	}
+}
+
+#tabSection {
+	background: #424242;
+	border-top: 10px solid #0f0f0f;
+}
+
+#tabBar {
+	background: linear-gradient(#323232, #7f7f7f);
+	border-bottom: 5px solid #0f0f0f;
+}
+
+.jumpBoxWrapper {
+	border: 2px solid #FFFFFF;
+	border-radius: 5px;
+}
+
+.jumpBoxWrapper[data-v-516a5a60] input {
+	background: white;
+	font-family: "Arial";
+	font-size: 12px;
+	color: #000000;
+	padding-top: 4px;
+}
+
+.jumpBox {
+	background: white;
+}
+
+.jumpboxLink {
+	background: white;
+	color: #6c6c6c;
+}
+
+.tabShell {
+	border-right: 0px solid;
+    .tab {
+	background: linear-gradient(to right, #424242 0%, #515151 10%, #757575 88%, #424242 89%);
+        .tabTitle {
+		font-family: "Verdana";
+		font-size: 18px;
+		font-weight: 300;
+                color: white;
+		text-align: center;
+        }
+    &::after {
+        content: url(assets://mods/Denizenthemes/Hephaestus/hephaestus_tab2.svg);
+	position: relative;
+}        
+
+	&.activeTab {
+
+    &::before {
+        content: url(assets://mods/Denizenthemes/Hephaestus/hephaestus_tab.svg);
+        width: 10px;
+        height: 10px;
+        position: relative;
+	padding-left: 15px;
+	padding-bottom: 10px;}
+            .tabTitle {
+		font-family: "Verdana";
+		font-size: 18px;
+		font-weight: 300;
+                color: white;
+		text-align: center;
+            }
+        }
+    }
+}

@@ -58,7 +58,7 @@ closeTabButton {
 	width: 100%;
 	color: #FFFFFF;
 	font-family: "Arial";
-	font-size: 26px;
+	font-size: 0px;
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align: center;
@@ -67,6 +67,10 @@ closeTabButton {
 	margin-right: 24px;
 	padding-top: 0px;
 	width: auto;
+	&::before {
+       	content: "E C H I D N A";
+	font-size: 26px;
+	}
 }
 
 #titleBarButtons {
@@ -116,36 +120,34 @@ closeTabButton {
 .tabShell {
 	box-sizing: border-box;
 	border-right: solid 0px;
-    .tab {
-        background: none;
-        .tabTitle {
-		font-family: "Arial";
-		font-size: 14px;
-		font-weight: regular;
-                color: #FFFFFF;
-		text-align: left;
-        }
-        &.activeTab {
-            	background: linear-gradient(180deg, #0fc3ff, #0ab6ff);
-   		box-sizing: border-box;
-   		border-right: solid 0px #cffffd;
-   		border-top: solid 0px #cffffd;
-  		border-left: solid 5px #153bfe;
-  		border-top-right-radius: 10px;
-  		border-top-left-radius: 10px;
-
-
-		border-left: 7px solid #153bfe;
-		border-bottom: 7px solid #153bfe;
-		border-bottom-left-radius: 5px;
-		border-bottom-right-radius: 5px;
-            .tabTitle {
-		font-family: "Arial";
-		font-size: 14px;
-		font-weight: regular;
-                color: #FFFFFF;
-		text-align: left;
-            }
-        }
-    }
+	.tab {
+		background: none;
+		.tabTitle {
+			font-family: "Arial";
+			font-size: 14px;
+			font-weight: regular;
+			color: #FFFFFF;
+			text-align: left;
+	        }
+		&.activeTab {
+	            	background: linear-gradient(180deg, #0fc3ff, #0ab6ff);
+	   		box-sizing: border-box;
+	   		border-right: solid 0px #153bfe;
+   			border-top: solid 0px #153bfe;
+  			border-left: solid 5px #153bfe;
+  			border-top-right-radius: 10px;
+	  		border-top-left-radius: 10px;
+			border-left: 7px solid #153bfe;
+			border-bottom: 7px solid #153bfe;
+			border-bottom-left-radius: 5px;
+			border-bottom-right-radius: 5px;
+			.tabTitle {
+				font-family: "Arial";
+				font-size: 14px;
+				font-weight: regular;
+		                color: #FFFFFF;
+				text-align: left;
+				}
+		}
+	}
 }

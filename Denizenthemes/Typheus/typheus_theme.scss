@@ -49,13 +49,12 @@ closeTabButton {
 }
 
 #titleBarText {
-    text-align: left;
-    width: 100%;
-    padding-left: 50px;
-
-    color: #329D83;
+	text-align: left;
+	width: 100%;
+	padding-left: 50px;
+	color: #329D83;
 //	font-family: "Homestuck";
-	font-size: 26px;
+	font-size: 0px;
 //	font-weight: 300;
 	font-family: "Courier Prime";
 	font-weight: bold;
@@ -65,6 +64,10 @@ closeTabButton {
 	margin-right: 24px;
 	padding-top: 0px;
 	width: auto;
+	&::before {
+        	content: "TYPHEUS";
+		font-size: 26px;
+	}
 }
 
 #titleBarButtons {
