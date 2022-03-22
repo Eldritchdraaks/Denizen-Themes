@@ -1,0 +1,151 @@
+@font-face {
+  font-family: Homestuck;
+  src: url(assets://mods/Denizenthemes/homestuck.ttf);
+  font-weight: regular;
+}
+
+.systemButton {
+	color: #FFFFFF;
+	font-weight: bold;
+
+	&.disabled, &:disabled {
+		color: #56d0ff;
+    }
+}
+
+closeTabButton {
+	font-weight: bold;
+}
+
+.navigationButtons {
+	padding-top: 3px;
+	padding-left: 70px;
+}
+
+#browserActions {
+	background: white;
+	color: #0066ee;
+	border-right: 2px solid #FFFFFF;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+#browserActions[data-v-516a5a60]>div>svg {
+	color: #0077ee;
+}
+
+.music[data-v-d1c414ac] {
+	color: #FFFFFF;
+}
+
+#titleBar {
+	background: linear-gradient(180deg, #11ddff, #15cefc);
+	color: #329D83;
+	margin-top: 0;
+	padding-top: 22px;
+	&::before {
+		content: url(assets://mods/Denizenthemes/Echidna/echidna_title.png);
+		width: 20px;
+		height: 20px;
+		margin: 10px;
+		position: absolute;
+		top: 0;
+	}
+}
+
+#titleBarText {
+	text-align: left;
+	width: 100%;
+	color: #FFFFFF;
+	font-family: "Arial";
+	font-size: 26px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 0.8;
+	letter-spacing: 0;
+	margin-right: 24px;
+	padding-top: 0px;
+	width: auto;
+}
+
+#titleBarButtons {
+	background-color: none;
+	top: 2px;
+	right: 2px;
+	div {
+		margin: 0 1px;
+	}
+}
+
+#tabBar {
+	background: linear-gradient(180deg, #15cefc, #0ec3ff);
+	border-bottom: 0px;
+}
+
+#tabSection {
+	background: linear-gradient(180deg, #0fc3ff, #0ab6ff);
+}
+
+.jumpBoxWrapper {
+	border: 2px solid #FFFFFF;
+	border-radius: 20px;
+}
+
+.jumpBoxWrapper[data-v-516a5a60] input {
+	background: white;
+	font-family: "Arial";
+	font-size: 12px;
+    	font-weight: regular;
+	color: #AAAAAA;
+	padding-top: 4px;
+}
+
+.jumpBox {
+	background: white;
+}
+
+.jumpboxLink {
+	background: white;
+	color: #AAAAAA;
+	border-left: 2px solid #FFFFFF;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.tabShell {
+	box-sizing: border-box;
+	border-right: solid 0px;
+    .tab {
+        background: none;
+        .tabTitle {
+		font-family: "Arial";
+		font-size: 14px;
+		font-weight: regular;
+                color: #FFFFFF;
+		text-align: left;
+        }
+        &.activeTab {
+            	background: linear-gradient(180deg, #0fc3ff, #0ab6ff);
+   		box-sizing: border-box;
+   		border-right: solid 0px #cffffd;
+   		border-top: solid 0px #cffffd;
+  		border-left: solid 5px #153bfe;
+  		border-top-right-radius: 10px;
+  		border-top-left-radius: 10px;
+
+
+		border-left: 7px solid #153bfe;
+		border-bottom: 7px solid #153bfe;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+            .tabTitle {
+		font-family: "Arial";
+		font-size: 14px;
+		font-weight: regular;
+                color: #FFFFFF;
+		text-align: left;
+            }
+        }
+    }
+}

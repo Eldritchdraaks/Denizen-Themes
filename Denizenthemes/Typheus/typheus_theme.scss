@@ -1,0 +1,151 @@
+@font-face {
+  font-family: Homestuck;
+  src: url(assets://mods/Denizenthemes/homestuck.ttf);
+  font-weight: regular;
+}
+
+.systemButton {
+	color: #419BA1;
+	font-weight: bold;
+
+	&.disabled, &:disabled {
+		color: #cffffd;
+    }
+}
+
+closeTabButton {
+	font-weight: bold;
+}
+
+.navigationButtons {
+	padding-top: 3px;
+}
+
+#browserActions {
+    background: white;
+    border-bottom: 2px solid #439b9a;
+    box-sizing: border-box;
+}
+
+.music[data-v-d1c414ac] {
+	color: #439b9a;
+}
+
+#titleBar {
+    background-color: #72E3AF;
+    color: #329D83;
+    margin-top: 0;
+    padding-top: 22px;
+    &::before {
+        content: url(assets://mods/Denizenthemes/Typheus/typheus_title.png);
+        width: 20px;
+        height: 20px;
+        margin: 10px;
+        position: absolute;
+        top: 0;
+    }
+	border-bottom: 5px solid #20FFB2;
+
+}
+
+#titleBarText {
+    text-align: left;
+    width: 100%;
+    padding-left: 50px;
+
+    color: #329D83;
+//	font-family: "Homestuck";
+	font-size: 26px;
+//	font-weight: 300;
+	font-family: "Courier Prime";
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 0.8;
+	letter-spacing: 0;
+	margin-right: 24px;
+	padding-top: 0px;
+	width: auto;
+}
+
+#titleBarButtons {
+    background-color: #72E3AF;
+    top: 2px;
+    right: 2px;
+    div {
+        margin: 0 1px;
+    }
+}
+
+#tabSection {
+	background: #9FE2E0;
+}
+
+#tabBar {
+	background: #9FE2E0;
+	border-bottom: 3px solid #439b9a
+}
+
+.jumpBoxWrapper {
+	border: 3px solid #439b9a;
+	border-radius: 0px;
+}
+
+.jumpBoxWrapper[data-v-516a5a60] input {
+	background: white;
+	font-family: "Courier New";
+	font-size: 12px;
+    	font-weight: bold;
+	color: #419BA1;
+	padding-top: 4px;
+}
+
+.jumpBox {
+	background: white;
+}
+
+.jumpboxLink {
+	background: white;
+	color: #439b9a;
+}
+
+.tabShell {
+	box-sizing: border-box;
+	border-right: solid 0px;
+    .tab {
+        background: #9FE2E0;
+        .tabTitle {
+//		font-family: "Homestuck";
+		font-size: 18px;
+//    		font-weight: 300;
+		font-family: "Courier Prime";
+		font-weight: bold;
+		text-transform: uppercase;
+                color: #cffffd;
+        }
+        &.activeTab {
+            	background: #cffffd;
+   		box-sizing: border-box;
+   		border-right: solid 5px #cffffd;
+   		border-top: solid 1px #cffffd;
+  		border-left: solid 5px #cffffd;
+  		border-top-right-radius: 10px;
+  		border-top-left-radius: 10px;
+    &::before {
+        content: url(assets://mods/Denizenthemes/Typheus/typheus_tab.png);
+        width: 20px;
+        height: 20px;
+        position: relative;}
+            .tabTitle {
+
+//		font-family: "Homestuck";
+		font-size: 18px;
+//   		font-weight: 300;
+		font-family: "Courier Prime";
+		font-weight: bold;
+		text-transform: uppercase;
+                color: #439b9a;
+		text-align: left;
+            }
+        }
+    }
+}

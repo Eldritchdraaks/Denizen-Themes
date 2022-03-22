@@ -1,0 +1,170 @@
+@font-face {
+  font-family: Homestuck;
+  src: url(assets://mods/Denizenthemes/homestuck.ttf);
+  font-weight: regular;
+}
+
+.systemButton {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+closeTabButton {
+	font-weight: bold;
+}
+
+.historyButton {
+	font-size: 15px;
+	color: #FFFFFF;
+	font-weight: bold;
+	box-sizing: border-box;
+	border: 2px solid #363d7f;
+	border-radius: 0px;
+	background: #5b6aa7;
+	margin: 1px;
+	box-shadow: none;
+	border-radius: 0px;
+	padding-top: 3px;
+	&.disabled, &:disabled {
+		color: #AAAAAA;
+    }	
+}
+
+#browserActions {
+	background: #8899ff;
+ 	border-left: 2px solid #363d7f;
+	box-sizing: border-box;
+}
+
+.music[data-v-d1c414ac] {
+	color: #FFFFFF;
+}
+
+#titleBar {
+    background-color: #31dcfe;
+    color: #329D83;
+    margin-top: 0;
+    padding-top: 23px;
+    border-bottom: 5px solid #32f0ff;
+}
+
+#titleBarText {
+    text-align: right;
+    width: 100%;
+
+    &::before {
+        content: url(assets://mods/Denizenthemes/Cetus/cetus_title.png);
+        margin: 10px;
+	margin-left: -50px;
+        position: absolute;
+        top: 0;
+    }
+    color: #0278dc;
+//	font-family: "Homestuck";
+	font-size: 26px;
+//	font-weight: 300;
+	font-family: "Courier Prime";
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 0.7;
+	letter-spacing: 0;
+	margin-right: 24px;
+	padding-top: 0px;
+	width: auto;
+}
+
+#titleBarButtons div {
+	background-color: none;
+	color: #0278dc;
+	font-weight: bold;
+	top: 2px;
+	right: 2px;
+	div {
+        margin: 0 1px;
+	}
+}
+
+#tabSection {
+	background: #8899ff;
+	padding-top: 2px;
+}
+
+#tabBar {
+	background: #8899ff;
+	border-bottom: 4px solid #363d7f;
+	padding-top: 5px;
+}
+
+.jumpBoxWrapper {
+	border: 2px solid #363d7f;
+	border-right: 0px;
+	border-radius: 0px;
+}
+
+.jumpBoxWrapper[data-v-516a5a60] input {
+	background: white;
+	font-family: "Arial";
+	font-size: 12px;
+    	font-weight: regular;
+	color: #556ab0;
+	padding-top: 4px;
+}
+
+.jumpBox {
+	background: white;
+}
+
+.jumpboxLink {
+	background: white;
+	color: #556ab0;
+}
+
+.tabShell {
+	box-sizing: border-box;
+	border-right: solid 0px;
+	padding-left: 8px;
+    .tab {
+            	background: #7082d7;
+   		box-sizing: border-box;
+   		border-right: solid 5px #7082d7;
+   		border-top: solid 1px #7082d7;
+  		border-left: solid 5px #7082d7;
+  		border-top-right-radius: 10px;
+  		border-top-left-radius: 10px;
+        .tabTitle {
+//		font-family: "Homestuck";
+		font-size: 18px;
+//    		font-weight: 300;
+		font-family: "Courier Prime";
+		font-weight: bold;
+		text-transform: uppercase;
+                color: #b8c1eb;
+        }
+        &.activeTab {
+            	background: #5b6aa7;
+   		box-sizing: border-box;
+   		border-right: solid 5px #5b6aa7;
+   		border-top: solid 1px #5b6aa7;
+  		border-left: solid 5px #5b6aa7;
+  		border-top-right-radius: 10px;
+  		border-top-left-radius: 10px;
+    &::before {
+        content: url(assets://mods/Denizenthemes/Cetus/cetus_tab.png);
+        width: 20px;
+        height: 20px;
+        position: relative;}
+            .tabTitle {
+
+//		font-family: "Homestuck";
+		font-size: 18px;
+//   		font-weight: 300;
+		font-family: "Courier Prime";
+		font-weight: bold;
+		text-transform: uppercase;
+                color: #FFFFFF;
+		text-align: left;
+		padding-left: 10px;
+            }
+        }
+    }
+}
