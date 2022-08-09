@@ -33,9 +33,9 @@ module.exports = {
     title: "Denizen Browser Themes", 
     summary: "Themes based on the beta kids internet browsers!",
     author: "Eldritchdraaks",
-    modVersion: 1.1,
+    modVersion: 1.2,
     locked: "010030",
-    description: "Typheus, Cetus, Hephaestus, Echidna. In the early acts of homestuck we see internet browsers named after these Denizens. Why not style your Homestuck browsing experience with a theme just like them?<br><b>Previews:</b> <a href=\"assets://archive/collection/Typheus/typheus_preview.png\">Typheus</a> • <a href=\"assets://archive/collection/Cetus/cetus_preview.png\">Cetus</a> • <a href=\"assets://archive/collection/Hepheastus/hepheastus_preview.png\">Hepheastus</a> • <a href=\"assets://archive/collection/Echidna/echidna_preview.png\">Echidna</a>",
+    description: "Typheus, Cetus, Hephaestus, Echidna. In the early acts of homestuck we see internet browsers named after these Denizens. Why not style your Homestuck browsing experience with a theme just like them?<br><b>Previews:</b> <a href=\"assets://archive/collection/Typheus/typheus_preview.png\">Typheus</a> • <a href=\"assets://archive/collection/Cetus/cetus_preview.png\">Cetus</a> • <a href=\"assets://archive/collection/Hephaestus/hephaestus_preview.png\">Hephaestus</a> • <a href=\"assets://archive/collection/Echidna/echidna_preview.png\">Echidna</a>",
     styles: [],
 
     computed(api){
